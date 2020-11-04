@@ -8,7 +8,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions
 (
-		features = "C:\\Users\\Ashwini Raut\\eclipse-workspace\\FreecCrmBDDFramework\\src\\main\\java\\Features\\Contact.feature"
+		features = "C:\\Users\\Ashwini Raut\\eclipse-workspace\\FreecCrmBDDFramework\\src\\main\\java\\Features\\deals.feature"
 		//where the feature file is located
 		,glue= {"StepDefinition"}, // path of step definition files
 		format= {"pretty","html:test-output"},
