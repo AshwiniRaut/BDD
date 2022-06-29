@@ -32,7 +32,7 @@ public class TestBase {
 		String browsername = prop.getProperty("browser");
 		if(browsername.equalsIgnoreCase("chrome"))
 		{
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\Ashwini Raut\\Downloads\\API_Testing_Examples\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C://Users//Ashwini Raut//eclipse-workspace//com.practiceTest//data//chromedriver.exe");
 			driver = new ChromeDriver();
 		}
 		driver.manage().window().maximize();
